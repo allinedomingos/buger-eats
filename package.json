@@ -1,0 +1,21 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Automated testing in QA Ninja's Buger Eats app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "author": "Alline",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.2.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^5.5.3",
+    "faker-br": "^0.4.1"
+  }
+}
